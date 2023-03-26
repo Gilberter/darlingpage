@@ -214,6 +214,24 @@ p {
     object-fit: cover;
     border: 2px solid whitesmoke;
 }
+.birthday div {
+    display: flex;
+    flex-direction: column;
+}
+.birthday ul{
+    display: flex;
+    flex-direction: row; 
+}
+.birthday ul li{
+    flex-direction: column;
+
+}
+.birthday ul li img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid whitesmoke;
+}
 @media (max-width: 600px) {
     .dates ul li{
         flex-wrap: wrap;
